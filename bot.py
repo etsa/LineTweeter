@@ -14,4 +14,4 @@ random.shuffle(file_lines)
 for line in file_lines:
      api.update_status(line)
      print line,
-     time.sleep(300) #time is in seconds
+     time.sleep(1200) #time is in seconds
